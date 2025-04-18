@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+	
+    <script src="script.js"></script>
+	
+<!-- Write here -->
+    <div class="calculator">
+        <h1 id="title">SmartCalc by Pragathi</h1>
+        <input id="screen" class="scr"></section>
+        <div id="1-row">
+            <button id="ac" onclick="clearscr()">Ac</button>
+            <button id="x" onclick="back()">X</button>
+        </div>
+        <div id="2-row">
+            <button id="(" onclick="funcin('(')">(</button>
+            <button id=")" onclick="funcin(')')">)</button></button>
+            <button id="(-" onclick="funcin('(-')">(-</button>
+            <button id="/" onclick="funcin('/')">/</button>
+        </div>
+        <div id="3-row">
+            <button id="7" onclick="funcin(7)">7</button>
+            <button id="8" onclick="funcin(8)">8</button></button>
+            <button id="9" onclick="funcin(9)">9</button>
+            <button id="*" onclick="funcin('*')">*</button>
+        </div>
+        <div id="4-row">
+            <button id="4" onclick="funcin(4)">4</button>
+            <button id="5" onclick="funcin(5)">5</button>
+            <button id="6" onclick="funcin(6)">6</button>
+            <button id="-" onclick="funcin('-')">-</button>
+        </div>
+    	<div id="5-row">
+            <button id="1" onclick="funcin(1)">1</button>
+            <button id="2" onclick="funcin(2)">2</button>
+            <button id="3" onclick="funcin(3)">3</button>
+            <button id="+" onclick="funcin('+')">+</button>
+        </div>
+        <div id="6-row">
+            <button id="%" onclick="funcin('%')">%</button>
+            <button id="0" onclick="funcin(0)">0</button>
+            <button id="." onclick="funcin('.')">.</button>
+            <button id="res" onclick="result()">=</button>
+        </div>
+    </div>
+</body>
+</html>
+    
