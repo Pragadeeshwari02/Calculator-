@@ -8,7 +8,7 @@ const initApp = () => {
         dis.value = dis.value + input;
     };
     window.clearscr = function(){
-        document.querySelector("#screen").value= " ";
+        document.querySelector("#screen").value= "";
     };
     window.result = function(){
         let rslt = document.querySelector("#screen");
